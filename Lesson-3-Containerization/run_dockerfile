@@ -1,0 +1,5 @@
+docker build --tag=api
+
+docker images
+
+docker run -ti --rm -p 8000:5001 --name my_app api sh
